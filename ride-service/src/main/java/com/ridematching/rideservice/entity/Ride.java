@@ -23,7 +23,7 @@ public class Ride {
 
     @Column(nullable = false)
     private String riderId;
-    @Column(nullable = false)//null until matched
+    
     private String driverId;
 
     @Column(nullable = false)
